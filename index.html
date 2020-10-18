@@ -5,15 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
     <link rel="stylesheet" href="style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Chilanka&family=Source+Code+Pro&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <ul class="menu">
-        <li>Home</li>
-        <li>My videos</li>
-        <li>Work</li>
-        <li>Writings</li>
-        <li>Contacts</li>
+        <li class="links"><a href="#welcome" >Home</a></li>
+        <li class="links"><a href="#videos">My videos</a></li>
+        <li class="links"><a href="#work">Work</a></li>
+        <li class="links"><a href="#writings">Writings</a></li>
+        <li class="links">Contacts</li>
     </ul>
     <section id="welcome">
         <div class ="parallax-inner">
@@ -37,6 +39,35 @@
             Sir Timothy John Berners-Lee OM KBE FRS FREng FRSA FBCS (born 8 June 1955),[1] also known as TimBL, is an English computer scientist best known as the inventor of the World Wide Web.
         </p>
     </section>
-    <script src="main.js"></script>
+    <section id= "videos">
+        <h1>
+            Videos 
+        </h1>
+        <div class="line"></div>
+        <iframe width="900" height="500" src="https://www.youtube.com/embed/UO-x_bF7mC0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    <section id ="work">
+        <h1>
+            Work
+        </h1>
+        <div class ="line"></div>
+        <iframe src="https://en.wikipedia.org/wiki/Tim_Berners-Lee#Career_and_research" height="1000" width="900"></iframe>
+    </section>
+    <section id ="writings">
+        <h1>
+            Writings
+        </h1>
+        <div class="line"></div>
+        <a class="article" href="https://webfoundation.org/2019/03/web-birthday-30/" target="_blank">30 years on, what’s next #ForTheWeb?
+</a>
+        <br>
+        <a class="article" href="https://webfoundation.org/about/sir-tim-berners-lee/" target="_blank">Sir Tim Berners-Lee
+</a>
+    </section>
+    
+    <script src="main.js">
+    </script>
+    
+    
 </body>
 </html>

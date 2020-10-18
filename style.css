@@ -1,6 +1,7 @@
 body{
     margin :0;
     padding-top: 800px;
+    text-align: center ;
 }
 .profile{
     width: 175px;
@@ -34,6 +35,7 @@ h1{
     line-height: 1.2 ;
     font-family: inherit ;
     font-weight: 300;
+    text-align: center ;
 }
 #name{
     font-size: 30px ;
@@ -84,5 +86,14 @@ p{
 }
 .links:hover{
     background-color: blue ; 
+}
+a{
+    text-decoration: none ;
+}
+html{
+    scroll-behavior: smooth ;
+}
+.article:hover{
+    color: aqua ;
 }
 
